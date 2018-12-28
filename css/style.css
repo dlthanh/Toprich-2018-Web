@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham.otf') format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+img {
+    vertical-align: middle;
+}
+.toprich-wrapper {
+    background-color: #e1e1e1;
+}
+.toprich-header {
+    height: 44px;
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+}
+.toprich-slider {
+    height: 100vh;
+}
+.toprich-item {
+    display: table;
+}
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.toprich-main {
+    width: 75%;
+    margin: 40px auto 0;
+    background-color: #fff;
+    position: relative;
+}
+.toprich-frame {
+    width: 100%;
+}
+.img-abs {
+    position: absolute;
+    width: 100%;
+}
+.abs-top {
+    top: 0;
+}
+.abs-bottom {
+    bottom: 0;
+}
+.abs-left {
+    left: 0;
+}
+.abs-right {
+    right: 0;
+}
+
+.coverimg {
+    position: absolute;
+}
+.cover1 {
+    width: 12.4025974026%;
+    top: 45.6575682382%;
+    left: 69.6103896104%;
+}
+.cover2 {
+    width: 17.2077922078%;
+    top: 46.4019851117%;
+    left: 51.2987012987%;
+}
+.cover3 {
+    width: 21.6233766234%;
+    left: 75.3246753247%;
+    top: 13.8957816377%;
+}
+.cover4 {
+    width: 27.4675324675%;
+    top: -6.20347394541%;
+    left: 53.3116883117%;
+}
+.cover5 {
+    width: 18.2467532468%;
+    top: 61.4143920596%;
+    left: 78.8311688312%;
+}
+
+.money {
+    font-family: 'Gotham', sans-serif;
+    font-size: 0.9vw;
+    line-height: 2vw;
+    height: 2vw;
+    color: #fff;
+    position: absolute;
+    top: 7.94044665012%;
+    right: 2.5vw;
+}
+.money .label {
+    background-color: #f09e67;
+    display: inline-block;
+    padding: 0 0.78125vw;
+    text-align: center;
+}
+.money .count {
+    display: inline-block;
+    padding: 0 0.78125vw;
+    background-color: #ffd78a;
+    text-align: center;
+}
+
+.toprich-detail {
+    position: absolute;
+    top: 42.9429280397%;
+    right: 0;
+    height: 50%;
+    width: 51.5584415584%;
+    padding-right: 2.5vw;
+}
+.toprich-content {
+    padding-right: 2.5vw;
+}
+.toprich-content p {
+    font-family: Arial, sans-serif;
+    font-size: 1vw;
+    line-height: 1.51041666667vw;
+    margin-bottom: 2.34375vw;
+}
+
+.slide2-img {
+    width: 103.181818182%;
+    left: -3.381818182%;
+}
+.slide4-img {
+    width: 101.558441558%;
+    left: -1.758441558%
+}
+
+.swiper-button-disabled {
+    opacity: 0!important;
+}
+.toprich-prev {
+    left: 10%!important;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23898989'%2F%3E%3C%2Fsvg%3E")!important;
+}
+.toprich-next {
+    right: 10%!important;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23898989'%2F%3E%3C%2Fsvg%3E")!important;
+}
+
+.toprich-pagingation {
+    position: absolute;
+    bottom: 3.5%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    z-index: 1003;
+}
+.toprich-pagingation li {
+    display: inline-block;
+    font-size: 1vw;
+    padding-top: 0.1vw;
+    width: 1.5625vw;
+    border-left: solid 1px #121212;
+    border-right: solid 1px #121212;
+    cursor: pointer;
+    font-family: 'Gotham', sans-serif;
+}
+.toprich-pagingation li:last-child {
+    border-right: none;
+}
+.toprich-pagingation li:first-child {
+    border-left: none;
+}
+.toprich-pagingation li:first-child::before {
+    content: '';
+    display: inline-block;
+    width: 0.6vw;
+    height: 0.6vw;
+    border-radius: 50%;
+    background-color: #121212;
+}
+.toprich-pagingation li.active {
+    background-color: #f09e67;
+}
+
+@media (max-width: 1280px) {
+    .toprich-main {
+        width: 85%;
+    }
+    .toprich-prev {
+        left: 2.5% !important;
+    }
+    .toprich-next {
+        right: 2.5% !important;
+    }
+    .toprich-pagingation {
+        bottom: 13%;
+    }
+}

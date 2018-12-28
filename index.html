@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2018 - Chơi lớn như tỷ phú Vượng, chìm nổi như tỷ phú Long, ước mong như bầu Đức</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/slimscroll.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        $(function() {
+            var toprich = new Swiper('.toprich-slider', {
+                speed: 600,
+                effect: 'fade',
+                fadeEffect: {
+                    crossFade: true
+                },
+                allowTouchMove: false,
+                navigation: {
+                    nextEl: '.toprich-next',
+                    prevEl: '.toprich-prev'
+                },
+                on: {
+                    slideChangeTransitionStart: function() {
+                        $('.animate').hide();
+                        $('.animate').removeClass('aos-init').removeClass('aos-animate');
+                        $('.toprich-pagingation li').removeClass('active');
+                        $('.toprich-pagingation li').eq(toprich.activeIndex).addClass('active');
+                    },
+                    slideChangeTransitionEnd: function() {
+                        $('.animate').show();
+                        AOS.init();
+                    }
+                }
+            });
+
+            new AOS.init();
+
+            $('.toprich-content').slimScroll({
+                height: '100%',
+                size: '4px',
+                railOpacity: 1,
+                opacity: 1,
+                alwaysVisible: true,
+                railVisible: true,
+                railColor: '#e5e5e5',
+                color: '#c1c1c1'
+            })
+
+            $('.toprich-pagingation li').eq(toprich.activeIndex).addClass('active');
+
+            $('.toprich-pagingation li').click(function() {
+               toprich.slideTo($(this).index(), 600);
+            });
+        })
+    </script>
+</head>
+<body>
+    <div class="toprich-wrapper">
+        <div class="toprich-header"></div>
+
+        <div class="toprich-slider swiper-container">
+            <div class="swiper-wrapper">
+                <div class="toprich-item swiper-slide">
+                    <div class="table-cell">
+                        <div class="toprich-main">
+                            <img src="images/frame.png" alt="" class="toprich-frame">
+
+                            <img src="images/title.png" alt="" class="img-abs abs-top abs-left">
+
+                            <img src="images/sapo.png" alt="" class="img-abs abs-bottom abs-left">
+
+                            <img src="images/logo.png" alt="" class="img-abs abs-top abs-right">
+
+                            <img src="images/cover-1.png" alt="" class="cover1 coverimg animate" data-aos="zoom-in" data-aos-duration="300">
+
+                            <img src="images/cover-2.png" alt="" class="cover2 coverimg animate" data-aos="zoom-in" data-aos-duration="400" data-aos-delay="100">
+
+                            <img src="images/cover-4.png" alt="" class="cover4 coverimg animate" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+
+                            <img src="images/cover-3.png" alt="" class="cover3 coverimg animate" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">
+
+                            <img src="images/cover-5.png" alt="" class="cover5 coverimg animate" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400">
+
+                            <img src="images/circle.png" alt="" class="img-abs abs-top abs-right">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="toprich-item swiper-slide">
+                    <div class="table-cell">
+                        <div class="toprich-main">
+                            <img src="images/frame.png" alt="" class="toprich-frame">
+
+                            <img src="images/slide-1.png" alt="" class="img-abs abs-top abs-left">
+
+                            <img src="images/subtitle-1.png" alt="" class="img-abs abs-top abs-right animate" data-aos="fade-left" data-aos-duration="300">
+
+                            <img src="images/quote-1.png" alt="" class="img-abs abs-top abs-right animate" data-aos="fade-left" data-aos-duration="400" data-aos-delay="100">
+
+                            <div class="money animate" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+                                <span class="label">$</span><span class="count"><span>190</span>.000 tỷ đồng</span>
+                            </div>
+
+                            <div class="toprich-detail animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">
+                                <div class="toprich-content">
+                                    <p>Năm 2018 là năm cực kỳ bận rộn của Vingroup và tỷ phú Phạm Nhật Vượng. Bên cạnh dự án VinFast khởi công từ cuối năm 2017, Vingroup công bố mô hình VinCity, Đại học VinUni, dược phẩm - nhà thuốc VinFA, điện thoại Vsmart, công ty công nghệ VinTech, thanh toán VinID... và khánh thành tòa nhà Landmark81 cao nhất Việt Nam với độ cao 461m. Ngày cuối năm, Vingroup còn "chơi lớn" với động thái mở cùng lúc 117 cửa hàng tiện lợi VinMart+ trên cả nước nâng tổng số cửa hàng lên con số 1.700.</p>
+
+                                    <p>Vingroup cũng công bố định hướng trở thành Tập đoàn Công nghệ - Công nghiệp - Dịch vụ. Dự kiến đến năm 2028, công nghệ sẽ là ngành chiếm tỷ trọng chính thay vì ngành bất động sản như hiện nay.</p>
+
+                                    <p>Tốc độ triển khai các dự án mới của Vingroup trong năm cũng khiến nhiều người kinh ngạc. Chỉ sau hơn 1 năm kể từ ngày công bố, VinFast đã ra mắt các mẫu xe ô tô tại Paris Motor Show cũng như tại Việt Nam và nhận được hàng nghìn đơn đặt trước. Bên cạnh đó, những chiếc xe máy điện VinFast Klara đầu tiên đã lăn bánh trên đường phố.</p>
+
+                                    <p>Và chỉ 4 tháng sau khi tuyên bố nhảy vào lĩnh vực smartphone, điện thoại Vsmart đã ra mắt.</p>
+
+                                    <p>Năm 2018 cũng ghi đậm dấu ấn của Vingroup lên thị trường chứng khoán. Nhà đầu tư nước ngoài mua ròng lượng cổ phiếu VinHomes trị giá 1,35 tỷ USD chỉ trong 1 phiên ngay khi cổ phiếu này lên niêm yết – một kỷ lục chưa từng có.</p>
+
+                                    <p>So với cuối năm 2017, cổ phiếu Vingroup tăng khoảng 60%, qua đó trở thành bluechip vốn hóa lớn nhất trên thị trường. Ba cổ phiếu Vingroup, VinHomes và Vincom Retail chiếm tới gần 1/4 vốn hóa của toàn sàn HoSE.</p>
+
+                                    <p>Nhờ cổ phiếu Vingroup tăng giá mạnh tài sản của tỷ phú Phạm Nhật Vượng cũng tăng lên đáng kể. Tính cả lượng cổ phiếu sở hữu gián tiếp qua CTCP Tập đoàn đầu tư Việt Nam, người giàu nhất TTCK đang nắm giữ lượng cổ phiếu trị giá hơn 190.000 tỷ đồng, tăng 71.000 tỷ so với năm trước.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="toprich-item swiper-slide">
+                    <div class="table-cell">
+                        <div class="toprich-main">
+                            <img src="images/frame.png" alt="" class="toprich-frame">
+
+                            <img src="images/slide-2.png" alt="" class="img-abs abs-top abs-left slide2-img">
+
+                            <img src="images/subtitle-2.png" alt="" class="img-abs abs-top abs-right animate" data-aos="fade-left" data-aos-duration="300">
+
+                            <img src="images/quote-2.png" alt="" class="img-abs abs-top abs-right animate" data-aos="fade-left" data-aos-duration="400" data-aos-delay="100">
+
+                            <div class="money animate" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+                                <span class="label">$</span><span class="count"><span>3</span>.600 tỷ đồng</span>
+                            </div>
+
+                            <div class="toprich-detail animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">
+                                <div class="toprich-content">
+                                    <p>Năm 2018 chứng kiến sự bùng nổ của một số nhóm ngành xuất khẩu như dệt may hay thủy sản. Và một trong những doanh nghiệp ấn tượng nhất là CTCP Vĩnh Hoàn, nhà xuất khẩu cá tra lớn nhất Việt Nam.</p>
+
+                                    <p>Dù doanh thu tăng không quá mạnh nhưng đa phần các doanh nghiệp xuất khẩu cá tra lớn đều có lợi nhuận tăng trưởng ở mức ba chữ số. Lũy kế 9 tháng đầu năm, Vĩnh Hoàn đạt 1.036 tỷ đồng lợi nhuận, tăng 153% so với cùng kỳ.</p>
+
+                                    <p>Cổ phiếu Vĩnh Hoàn đã tăng liên tục bất chấp xu hướng chung đi xuống của thị trường, tức mức 50.000 đồng hồi tháng 6 lên mức đỉnh 112.000 vào cuối tháng 11.</p>
+
+                                    <p>Hiện Vĩnh Hoàn là doanh nghiệp thủy sản lớn nhất trên sàn với vốn hóa đạt 8.500 tỷ đồng. Với gần 43% cổ phần, Chủ tịch Vĩnh Hoàn Trương Thị Lệ Khanh hiện sở hữu lượng cổ phiếu trị giá hơn 3.600 tỷ đồng, tăng gần gấp đôi so với cuối năm 2017.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="toprich-item swiper-slide">
+                    <div class="table-cell">
+                        <div class="toprich-main">
+                            <img src="images/frame.png" alt="" class="toprich-frame">
+
+                            <img src="images/slide-3.png" alt="" class="img-abs abs-bottom abs-left">
+
+                            <img src="images/subtitle-3.png" alt="" class="img-abs abs-top abs-right animate" data-aos="fade-left" data-aos-duration="300">
+
+                            <img src="images/quote-3.png" alt="" class="img-abs abs-top abs-right animate" data-aos="fade-left" data-aos-duration="400" data-aos-delay="100">
+
+                            <div class="money animate" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+                                <span class="label">$</span><span class="count"><span>2</span>.600 tỷ đồng</span>
+                            </div>
+
+                            <div class="toprich-detail animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">
+                                <div class="toprich-content">
+                                    <p>Yeah1 Group là một trong những doanh nghiệp lên sàn gây nhiều tranh cãi nhất trong năm 2018, chủ yếu do mô hình kinh doanh truyền thông khá mới mẻ dựa trên nền tảng Internet, truyền hình cùng với mức định giá cao ngất ngưởng.</p>
+
+                                    <p>Hiện vốn hóa của Yeah1 lên đến 7.000 tỷ đồng, gấp hơn 3 lần so với FPT Online - công ty đang vận hành báo điện tử VnExpress - trong khi lợi nhuận của Yeah1 chỉ bằng một góc so với FPT Online.</p>
+
+                                    <p>Vốn là một người khá lạ lẫm với công chúng nhưng khi đưa công ty lên sàn, Chủ tịch Yeah1 Nguyễn Ảnh Nhượng Tống đã gia nhập nhóm những doanh nhân nghìn tỷ trên sàn chứng khoán với khối tài sản trị giá hơn 2.600 tỷ đồng.</p>
+
+                                    <p>Chỉ mới 40 tuổi, ông Tống là một trong những doanh nhân trẻ nhất sở hữu khối tài sản trên 1.000 tỷ đồng. Trước khi thành lập Yeah 1 vào năm 2006, doanh nhân này  từng là diễn viên điện ảnh, biểu diễn thời trang. Ông Tống cũng là Giám đốc công ty Song Vũ với việc đào tạo ca sĩ.</p>
+
+                                    <p>Ngoài công việc tại Yeah 1, ông Tống còn được biết đến là Phó chủ tịch Hiệp Hội Thương mại Điện tử Việt Nam (2011-2016), Ủy viên ban chấp hành Hội doanh nghiệp trẻ Tp. HCM (2014-2017), Uỷ Viên Ban Chấp Hành TW Hội Liên Hiệp Thanh Niên Việt Nam (từ năm 2012)…</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="toprich-item swiper-slide">
+                    <div class="table-cell">
+                        <div class="toprich-main">
+                            <img src="images/frame.png" alt="" class="toprich-frame">
+
+                            <img src="images/slide-4.png" alt="" class="img-abs abs-top abs-left slide4-img">
+
+                            <img src="images/subtitle-4.png" alt="" class="img-abs abs-top abs-right animate" data-aos="fade-left" data-aos-duration="300">
+
+                            <img src="images/quote-4.png" alt="" class="img-abs abs-top abs-right animate" data-aos="fade-left" data-aos-duration="400" data-aos-delay="100">
+
+                            <div class="money animate" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+                                <span class="label">$</span><span class="count"><span>5</span>.300 tỷ đồng</span>
+                            </div>
+
+                            <div class="toprich-detail animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">
+                                <div class="toprich-content">
+                                    <p>Sau nhiều năm tăng trưởng tương đối dễ dàng, những khó khăn bắt đầu đến với Thế giới Di động. Do những lo ngại về tăng trưởng, cổ phiếu của công ty lao dốc mạnh trong giai đoạn thăng hoa của thị trường hồi đầu năm. Nguyên nhân chủ yếu đến từ việc chưa tìm được mô hình hợp lý cho chuỗi bán lẻ Bách Hóa Xanh.</p>
+
+                                    <p>Chủ tịch Nguyễn Đức Tài cũng ít xuất hiện tại các buổi hội thảo chia sẻ kinh nghiệm hơn để tìm kiếm lời giải cho mảng kinh doanh mới của mình. Giảm 10% so với cuối năm trước, hiện tài sản của ông Tài chỉ còn hơn 5.300 tỷ đồng.</p>
+
+                                    <p>Những thay đổi sau đó đưa Bách Hóa Xanh vào đúng quỹ đạo cũng như tiếp tục duy trì được tốc độ tăng trưởng 30% nhờ chuỗi Điện máy Xanh phát triển phi mã đã phần nào lấy lại niềm tin của nhà đầu tư.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="toprich-item swiper-slide">
+                    <div class="table-cell">
+                        <div class="toprich-main">
+                            <img src="images/frame.png" alt="" class="toprich-frame">
+
+                            <img src="images/slide-5.png" alt="" class="img-abs abs-top abs-left">
+
+                            <img src="images/subtitle-5.png" alt="" class="img-abs abs-top abs-right animate" data-aos="fade-left" data-aos-duration="300">
+
+                            <img src="images/quote-5.png" alt="" class="img-abs abs-top abs-right animate" data-aos="fade-left" data-aos-duration="400" data-aos-delay="100">
+
+                            <div class="money animate" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+                                <span class="label">$</span><span class="count"><span>26</span>.000 tỷ đồng</span>
+                            </div>
+
+                            <div class="toprich-detail animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">
+                                <div class="toprich-content">
+                                    <p>Sau khi Vietjet lên sàn rất thành công trong năm 2017, nữ tỷ phú đô la duy nhất của Vietnam tiếp tục đưa HDBank lên niêm yết vào ngay đầu năm 2018. Bà Nguyễn Thị Phương Thảo hiện giữ vị trí Phó Chủ tịch HĐQT và sở hữu 3,7% cổ phần của ngân hàng này, tương ứng lượng cổ phiếu trị giá hơn 1.000 tỷ đồng.</p>
+
+                                    <p>Tính cả lượng cổ phiếu Vietjet, bà Thảo hiện nắm giữ số cổ phiếu trị giá gần 26.000 tỷ đồng, tăng 1.000 tỷ so với năm trước.</p>
+
+                                    <p>Với vốn hóa hiện đạt hơn 66.000 tỷ đồng, tức gần 3 tỷ USD, Vietjet là hãng hàng không có giá trị lớn thứ 2 ở khu vực Đông Nam Á, chỉ xếp sau Singapore Airlines.</p>
+
+                                    <p>Tham vọng mở rộng của Vietjet tiếp tục được duy trì với việc có thêm nhiều hợp đồng mua máy bay được ký kết. Hợp đồng mới nhất được ký ngày 3/11, theo đó Vietjet đặt mua 50 tàu bay Airbus A321neo trị giá 6,5 tỷ Đô la Mỹ.</p>
+
+                                    <p>Lũy kế 9 tháng tháng đầu năm, Vietjet đạt gần 34.000 tỷ đồng doanh thu và LNST đạt 3.681 tỷ đồng tăng 33% so với cùng kỳ năm 2017. Trong đó, doanh thu vận tải hàng không đạt 25.413 tỷ đồng, vượt 50% so với cùng kỳ và lợi nhuận vận tải hàng không đạt 2.280 tỷ đồng, đạt 76% kế hoạch cả năm 2018. Trong bối cảnh giá dầu biến động, thu nhập từ vận tải hàng không của Vietjet đến nhờ khả năng quản lý tốt chi phí, bao gồm chi phí xăng dầu.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="toprich-item swiper-slide">
+                    <div class="table-cell">
+                        <div class="toprich-main">
+                            <img src="images/frame.png" alt="" class="toprich-frame">
+
+                            <img src="images/slide-6.png" alt="" class="img-abs abs-top abs-left">
+
+                            <img src="images/subtitle-6.png" alt="" class="img-abs abs-top abs-right animate" data-aos="fade-left" data-aos-duration="300">
+
+                            <img src="images/quote-6.png" alt="" class="img-abs abs-top abs-right animate" data-aos="fade-left" data-aos-duration="400" data-aos-delay="100">
+
+                            <div class="money animate" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+                                <span class="label">$</span><span class="count"><span>19</span>.000 tỷ đồng</span>
+                            </div>
+
+                            <div class="toprich-detail animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">
+                                <div class="toprich-content">
+                                    <p>Trong 2 năm thăng hoa của ngành ngân hàng, hiếm có ngân hàng nào thành công hơn Techcombank. Từ vị thế chỉ tương đương hoặc thấp hơn các ngân hàng cổ phần Top đầu khác như VPBank, ACB hay MBB thì nay Techcombank đã bứt phá vượt lên hẳn.</p>
+
+                                    <p>Hiện tại, vốn hóa thị trường của Techcombank đạt hơn 90.000 tỷ đồng - đứng thứ 3 chỉ sau Vietcombank và BIDV. Thậm chí với mức tăng trưởng 61% so với cùng kỳ, lợi nhuận trước thuế 9 tháng đầu năm của Techcombank chỉ kém mỗi Vietcombank, đạt đạt 7.774 tỷ đồng.</p>
+
+                                    <p>Giá trị của Techcombank tăng ấn tượng cũng gián tiếp tác động tích cực lên kết qủa kinh doanh của Masan Group - công ty đang nắm 15% vốn điều lệ của TCB đồng thời có chung 2 lãnh đạo chủ chốt là ông Hồ Hùng Anh (Chủ tịch Techcombank, Phó Chủ tịch Masan Group) và ông Nguyễn Đăng Quang (Chủ tịch Masan Group, Phó Chủ tịch Techcombank).</p>
+
+                                    <p>Sau năm 2017 gặp nhiều khó khăn, lợi nhuận trước thuế 9 tháng đầu năm 2018 của Masan đã tăng 170% lên 4.800 tỷ đồng. Dù vậy, không hẳn mọi mảng kinh doanh của bộ đôi doanh nhân Nguyễn Đăng Quang - Hồ Hùng Anh đều diễn ra thuận lợi.</p>
+
+                                    <p>Khủng hoảng giá heo từ đầu năm 2017 vẫn tiếp tục tác động mạnh lên kết quả kinh doanh của công ty Masan Nutri-Science hay một số ngành hàng của Masan Consumer Holdings tăng trưởng chậm không được như kỳ vọng.</p>
+
+                                    <p>Mặc dù là những người đứng đầu của 2 doanh nghiệp có tổng vốn hóa lên đến gần 200.000 tỷ đồng nhưng 2 doanh nhân này lại trực tiếp nắm giữ lượng cổ phần có giá trị không lớn.</p>
+
+                                    <p>Ông Hồ Hùng Anh hiện chỉ nắm giữ 1,12% cổ phần của Techcombank, trị giá hơn 1.000 tỷ đồng. Tuy vậy, những người liên quan như vợ, con trai mẹ và em dâu ông Hồ Hùng Anh cũng đang nắm giữ 15,9% cổ phần, trị giá gần 14.500 tỷ đồng.</p>
+
+                                    <p>Bà Nguyễn Thị Thanh Thủy, vợ ông Hồ Hùng Anh đang nắm giữ 174 triệu cổ phiếu TCB và gần 6 triệu cổ phiếu Masan có tổng giá hơn 5.000 tỷ đồng.</p>
+
+                                    <p>Trái ngược với gia đình ông Hồ Hùng Anh, ông Nguyễn Đăng Quang chỉ nắm giữ vỏn vẹn 9,4 triệu cổ phiếu TCB, trị giá chưa đến 300 tỷ đồng. Tại Masan Group, ông Quang cũng chỉ sở hữu vỏn vẹn 15 cổ phiếu, còn vợ ông, bà Nguyễn Thị Hoàng Yến sở hữu hơn 42,4 triệu cổ phiếu, trị giá hơn 3.300 tỷ đồng.</p>
+
+                                    <p>Ông Nguyễn Đăng Quang cũng như ông Hồ Hùng Anh chủ yếu nắm giữ gián tiếp Masan Group thông qua một pháp nhân có tên CTCP Masan.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="toprich-item swiper-slide">
+                    <div class="table-cell">
+                        <div class="toprich-main">
+                            <img src="images/frame.png" alt="" class="toprich-frame">
+
+                            <img src="images/slide-7.png" alt="" class="img-abs abs-top abs-left">
+
+                            <img src="images/subtitle-7.png" alt="" class="img-abs abs-top abs-right animate" data-aos="fade-left" data-aos-duration="300">
+
+                            <img src="images/quote-7.png" alt="" class="img-abs abs-top abs-right animate" data-aos="fade-left" data-aos-duration="400" data-aos-delay="100">
+
+                            <div class="money animate" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+                                <span class="label">$</span><span class="count"><span>16</span>.000 tỷ đồng</span>
+                            </div>
+
+                            <div class="toprich-detail animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">
+                                <div class="toprich-content">
+                                    <p>Chỉ trong 1 năm, Chủ tịch HĐQT của Tập đoàn Hòa Phát được Forbes “xướng” tên 2 lần. Lần thứ nhất, vào tháng 3/2018, ông Trần Đình Long lọt vào danh sách tỷ phú thế giới nhờ sự đóng góp lớn của việc cổ phiếu HPG tăng 60% trong 2 tháng trước đó, lên tới trên 60.000 đồng.</p>
+
+                                    <p>Đến đầu tháng 12, khi HPG đã trải qua 3 tháng lao dốc về gần mức giá đầu năm và làm bay hơi 6.000 tỷ đồng, tương đương gần 260 triệu USD trong tài sản của ông Trần Đình Long (so với thời điểm gần nhất cập nhật tài sản cá nhân của ông Long trên Forbes) thì Chủ tịch HĐQT Tập đoàn Hòa Phát không còn nằm trong danh sách tỷ phú thế giới nữa.</p>
+
+                                    <p>Cho đến ngày 29/12/2018, tổng tài sản trên sàn chứng khoán của ông Trần Đình Long là 16.000 tỷ đồng. Vợ ông Long cũng nắm giữ lượng cổ phiếu trị giá 4.600 tỷ đồng. Như vậy có thể thấy tổng giá trị lượng cổ phiếu của 2 vợ chồng đã xuống dưới mức 1 tỷ USD, tương đương hơn 23.000 tỷ đồng.</p>
+
+                                    <p>Ngành thép Việt Nam năm nay bị tấn công bởi nhiều mũi tên trong bối cảnh phức tạp của chiến tranh thương mại. Tính riêng trong tháng 8, ngành này đối mặt với gần 10 vụ kiện phòng vệ thương mại từ Mỹ, Canada, Malaysia, Ấn Độ… cùng quyết định tăng thuế nhập khẩu nhằm bảo hộ ngành thép trong nước của nhiều quốc gia. Cùng lúc, Trung Quốc đẩy mạnh chính sách hỗ trợ các nhà sản xuất trong nước để thúc đẩy xuất khẩu, khiến thép Trung Quốc vào Việt Nam tăng cao.</p>
+
+                                    <p>Chốt lại, 2018 là năm tăng trưởng sản lượng thấp nhất trong vòng 5 năm trở lại đây của Hòa Phát. Mặc dù vậy, với sự khác biệt về công nghệ, “cỗ xe lu” vẫn đạt được những thành tích đáng nể so với doanh nghiệp cùng ngành. Trong 3 quý đầu năm, Hòa Phát đạt 42.000 tỷ đồng doanh thu và 6.833 tỷ đồng lợi nhuận sau thuế, tăng tương ứng 24% và 22% so với cùng kỳ năm trước.</p>
+
+                                    <p>Dự án Dung Quất – “trái tim” của kế hoạch doanh thu 100.000 tỷ đồng vào năm 2020 - đã đưa dây chuyền số 1 vào hoạt động từ tháng 8/2018. Dung Quất sẽ biến Hòa Phát từ người cao 1m7 thành 3m4 như ông Long tự tin khẳng định, hay sẽ phải đối mặt với những rủi ro về cung cầu thị trường, về dòng tiền, về môi trường…? Đó là điều mà nhà đầu tư dõi theo trong năm 2019.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="toprich-item swiper-slide">
+                    <div class="table-cell">
+                        <div class="toprich-main">
+                            <img src="images/frame.png" alt="" class="toprich-frame">
+
+                            <img src="images/slide-8.png" alt="" class="img-abs abs-top abs-left">
+
+                            <img src="images/subtitle-8.png" alt="" class="img-abs abs-top abs-right animate" data-aos="fade-left" data-aos-duration="300">
+
+                            <img src="images/quote-8.png" alt="" class="img-abs abs-top abs-right animate" data-aos="fade-left" data-aos-duration="400" data-aos-delay="100">
+
+                            <div class="money animate" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+                                <span class="label">$</span><span class="count"><span>15</span>.800 tỷ đồng</span>
+                            </div>
+
+                            <div class="toprich-detail animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">
+                                <div class="toprich-content">
+                                    <p>Ông Trịnh Văn Quyết lần đầu tiên công bố lấn sân sang ngành hàng không là vào tháng 5/2017 và trong suốt năm 2018, Bamboo Airways cùng câu chuyện “Bay hay không bay” là chủ đề nóng trên khắp các mặt trận truyền thông.</p>
+
+                                    <p>Trên thị trường chứng khoán, diễn biến giá cổ phiếu FLC cũng xuất hiện những đợt sóng bất ngờ theo mỗi lần “hé lộ” chuyện bay của Bamboo.</p>
+
+                                    <p>Cuối cùng, ngày 12/11/2018, Bộ Giao thông vận tải đã chính thức cấp giấy phép kinh doanh vận chuyển hàng không cho Bamboo Airways. Hãng bay của ông Trịnh Văn Quyết hoàn tất thủ tục pháp lý để có thể cất cánh.</p>
+
+                                    <p>Tuy nhiên, với sự lao dốc không phanh của cổ phiếu ROS mà ông Trịnh Văn Quyết đang sở hữu hơn 382 triệu đơn vị, thì khối tài sản trên sàn chứng khoán của tỷ phú đã giảm mạnh và chỉ còn 15.800 tỷ đồng (tương đương 680 triệu USD) tại thời điềm 29/12/2018. Như vậy, tài sản của ông Quyết đã giảm 43.000 tỷ đồng so với thời điểm cuối năm ngoái. Từ vị trí thứ 2 trong bảng xếp hạng những người giàu nhất Việt Nam, Chủ tịch HĐQT của Tập đoàn FLC rơi xuống vị trí thứ 5.</p>
+
+                                    <p>2 cổ phiếu khác mà ông Trịnh Văn Quyết đang nắm giữ là FLC và ART cũng trong tình trạng tương tự và đều ở dưới mệnh giá.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="toprich-item swiper-slide">
+                    <div class="table-cell">
+                        <div class="toprich-main">
+                            <img src="images/frame.png" alt="" class="toprich-frame">
+
+                            <img src="images/slide-9.png" alt="" class="img-abs abs-top abs-left">
+
+                            <img src="images/subtitle-9.png" alt="" class="img-abs abs-top abs-right animate" data-aos="fade-left" data-aos-duration="300">
+
+                            <img src="images/quote-9.png" alt="" class="img-abs abs-top abs-right animate" data-aos="fade-left" data-aos-duration="400" data-aos-delay="100">
+
+                            <div class="money animate" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+                                <span class="label">$</span><span class="count"><span>440</span> tỷ đồng</span>
+                            </div>
+
+                            <div class="toprich-detail animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">
+                                <div class="toprich-content">
+                                    <p>Sở hữu 21,6 triệu cổ phần của Ngân hàng Bắc Á, bà Thái Hương nằm trong Top200 những người giàu nhất thị trường chứng khoán Việt Nam. Mặc dù không nổi danh trên sàn chứng khoán nhưng đối với giới doanh nhân, đặc biệt là ngành sữa thì đây là một người phụ nữ quyền lực.</p>
+
+                                    <p>Năm 2018, Tập đoàn TH true MILK của bà Thái Hương ghi dấu ấn với việc khởi công Nhà máy chế biến sữa công suất 1.500 tấn/ngày tại Kaluga (nước Nga), trở thành nhà máy sữa có công suất lớn nhất xứ Bạch Dương.</p>
+
+                                    <p>Dự án Tổ hợp chăn nuôi bò sữa và chế biến sữa công nghệ cao mà Tập đoàn TH đang triển khai có quy mô đầu tư 2,7 tỷ USD, được khởi động từ năm 2015. Với dự án này, TH là doanh nghiệp lớn nhất của Việt Nam đầu tư tại nước Nga.</p>
+
+                                    <p>Tại lễ khởi công nhà máy, Tổng bí thư Nguyễn Phú Trọng phát biểu: “Dự án của TH có thể là khởi dầu của một xu hướng về đầu tư giữa Việt Nam và Liên bang Nga".</p>
+
+                                    <p>Tại thị trường nội địa, theo công bố của TH, Tập đoàn này đang chiếm hơn 40% thị phần phân khúc sữa tươi sau gần 9 năm hoạt động.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="toprich-item swiper-slide">
+                    <div class="table-cell">
+                        <div class="toprich-main">
+                            <img src="images/frame.png" alt="" class="toprich-frame">
+
+                            <img src="images/slide-10.png" alt="" class="img-abs abs-bottom abs-left">
+
+                            <img src="images/subtitle-10.png" alt="" class="img-abs abs-top abs-right animate" data-aos="fade-left" data-aos-duration="300">
+
+                            <img src="images/quote-10.png" alt="" class="img-abs abs-top abs-right animate" data-aos="fade-left" data-aos-duration="400" data-aos-delay="100">
+
+                            <div class="money animate" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+                                <span class="label">$</span><span class="count"><span>1</span>.600 tỷ đồng</span>
+                            </div>
+
+                            <div class="toprich-detail animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">
+                                <div class="toprich-content">
+                                    <p>Mặc dù giá cổ phiếu Hoàng Anh Gia Lai (HAGL) mất gần 1/3 giá trị nhưng có thể coi năm 2018 là một năm thành công của bầu Đức. Sau một thời gian dài phải tự xoay sở với các phương án xử lý nợ và tái cấu trúc hoạt động kinh doanh, bầu Đức và HAGL đã tìm được đối tác đồng hành là CTCP Ô tô Trường Hải (Thaco) của tỷ phú Trần Bá Dương.</p>
+
+                                    <p>Theo đó, Thaco và HAGL đã ký kết hợp tác chiến lược với việc Thaco sẽ mua một lượng lớn cổ phần và trái phiếu chuyển đổi tại 2 công ty con quan trọng của HAGL là công ty nông nghiệp HAGL Agrico và khu phức hợp của HAGL tại Myanmar. Tổng giá trị số tiền mà Thaco bỏ ra để mua cổ phần và xử lý nợ của HAGL có thể lên đến 20.000 tỷ đồng. Hiện tại, Thaco đã chính thức mua lượng lớn trái phiếu chuyển đổi và đưa người vào ban lãnh đạo của HAGL Agrico (HNG).</p>
+
+                                    <p>Cái bắt tay của 2 doanh nhân nổi tiếng Việt Nam được kỳ vọng sẽ giúp HAGL vượt qua áp lực nợ và đưa HAGL Agrico thành một tập đoàn nông nghiệp hàng đầu với quỹ đất hơn 80.000 ha của HAGL tại 3 nước Đông Dương. Nhờ sự xuất hiện của Thaco thì cổ phiếu HNG đã đi ngược xu hướng thị trường với mức tăng trên 60% so với năm trước.</p>
+
+                                    <p>Trong những ngày cuối năm, bầu Đức lại được nhắc đến nhiều như một "người hùng thầm lặng" đằng sau chức vô địch của đội tuyển bóng đá Việt Nam tại AFF Cup. Bên cạnh việc dốc rất nhiều tâm huyết và tiền bạc đào tào bóng đá trẻ trong cả chục năm trời, rất nhiều người đã bất ngờ trước thông tin bầu Đức chính là người đã đưa về đã bỏ tiền túi ra để trả lương cho huấn luyện viên Park Hang Seo trong suốt 2 năm qua.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="toprich-prev swiper-button-prev"></div>
+            <div class="toprich-next swiper-button-next"></div>
+
+            <ul class="toprich-pagingation">
+                <li></li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
