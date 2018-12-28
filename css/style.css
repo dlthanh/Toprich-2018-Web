@@ -152,7 +152,7 @@ img {
 
 .toprich-pagingation {
     position: absolute;
-    bottom: 3.5%;
+    bottom: calc(3.5% + 5px);
     left: 0;
     display: flex;
     justify-content: center;
